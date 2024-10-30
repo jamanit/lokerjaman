@@ -1,0 +1,228 @@
+/* custom default */
+.bg-gradient-purple {
+    background: #008b4e !important;
+    background: linear-gradient(to right,
+            #008b4e, #8E54E9) !important;
+}
+
+.bg-gray {
+    background-color: #f8f8f8 !important;
+}
+
+.bg-dark-blue {
+    background-color: #004058 !important;
+}
+
+.bg-green {
+    background-color: #008b4e !important;
+}
+
+.text-green {
+    color: #008b4e !important;
+}
+
+.width-1 {
+    width: 1% !important;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.img-list {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover !important;
+}
+
+.img-input {
+    width: 42px !important;
+    height: 42px !important;
+    object-fit: cover !important;
+}
+
+.radius-10 {
+    border-radius: 10px !important;
+}
+
+.radius-top-10 {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.radius-bottom-10 {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.radius-left-10 {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.radius-left-10 {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.line-height {
+    line-height: 1.5 !important;
+}
+
+@media (max-width: 576px) {
+    .main-content {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .card .card-header {
+        padding: 15px 10px !important;
+    }
+
+    .card .card-header,
+    .card .card-body,
+    .card .card-footer {
+        padding: 20px 10px !important;
+    }
+
+    .list-group-item {
+        padding: 0rem 0.5rem !important;
+    }
+
+    .navbar .nav-link {
+        padding-right: 0.5px !important;
+    }
+
+    .navbar {
+        left: 0 !important;
+    }
+}
+
+/* end custom default */
+
+/* custom ahref */
+.custom-ahref {
+    text-decoration: none !important;
+    color: #6777ef !important;
+    transition: color 0.3s ease !important;
+}
+
+.custom-ahref:hover {
+    color: #6c757d !important;
+}
+
+/*  end custom ahref */
+
+/* topbar */
+.navbar .form-inline .search-result {
+    right: 15px !important;
+    max-width: 295px !important;
+}
+
+.navbar .form-inline .search-result:before {
+    left: auto !important;
+    right: 15px !important;
+}
+
+.navbar-bg {
+    height: 115px !important;
+}
+
+body.layout-3 .main-content {
+    padding-top: 150px !important;
+}
+
+@media (max-width: 768px) {
+    .navbar .form-inline .search-result {
+        right: auto !important;
+        max-width: 470px !important;
+    }
+
+    .navbar-bg {
+        height: 70px !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar-bg {
+        height: 70px !important;
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+    .sticky {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        z-index: 1000 !important;
+        width: 100% !important;
+    }
+
+    .sticky+.content {
+        padding-top: 60px !important;
+    }
+}
+
+/* end topbar */
+
+/* button scrollbar */
+.scroll-btn {
+    position: fixed;
+    right: 20px;
+    padding: 10px;
+    background-color: rgba(111, 66, 193, 0.8);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-btn:hover {
+    background-color: rgba(90, 50, 160, 0.8);
+}
+
+#scrollUp {
+    bottom: 80px;
+}
+
+#scrollDown {
+    bottom: 20px;
+}
+
+/* end button scrollbar */
+
+/* text limit */
+.title-text-limit {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description-text-limit {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Untuk mode mobile */
+@media (max-width: 768px) {
+    .description-text-limit {
+        -webkit-line-clamp: 2;
+    }
+}
+
+/* end text limit */
